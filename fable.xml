@@ -10,6 +10,7 @@
   <property name="contador" default="4" />
   <property name="contador" default="5" />
   <property name="contador" default="6" />
+  <property name="contador" default="7" />
   
   <start />
   <middle />
