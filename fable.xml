@@ -11,6 +11,7 @@
   <property name="contador" default="5" />
   <property name="contador" default="6" />
   <property name="contador" default="7" />
+  <property name="contador" default="8" />
   
   <start />
   <middle />
