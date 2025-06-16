@@ -9,4 +9,4 @@
   <ending />
 </fable>
 
-<property name="contador" default="valor_inicial" />
+<property name="contador" default="0" />
