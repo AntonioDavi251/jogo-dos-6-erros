@@ -79,7 +79,7 @@
     />
 
     <!-- Verificação para mudar de página -->
-    <fab-if when="$contador = 7">
+    <fab-if when="$contador = 6">
       <action do="goToPage('ending')" />
     </fab-if>
   </page>
