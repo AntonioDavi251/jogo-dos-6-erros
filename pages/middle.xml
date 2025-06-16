@@ -13,8 +13,18 @@
       text=" "
       width="32"
       height="32"
-      y=""
-      x="center"
+      y="290"
+      x="585"
+      on_click="set(contador, $contador + 1)"
+    />
+
+  <agent
+      id="btn-invisible"
+      text=" "
+      width="32"
+      height="32"
+      y="290"
+      x="585"
       on_click="set(contador, $contador + 1)"
     />
   
