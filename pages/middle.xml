@@ -19,12 +19,62 @@
     />
 
   <agent
-      id="btn-invisible"
+      id="1"
       text=" "
       width="32"
       height="32"
-      y="290"
-      x="585"
+      y="420"
+      x="620"
+      on_click="set(contador, $contador + 1)"
+    />
+
+  <agent
+      id="2"
+      text=" "
+      width="32"
+      height="32"
+      y="540"
+      x="415"
+      on_click="set(contador, $contador + 1)"
+    />
+
+<agent
+      id="3"
+      text=" "
+      width="32"
+      height="32"
+      y="450"
+      x="680"
+      on_click="set(contador, $contador + 1)"
+    />
+
+<agent
+      id="4"
+      text=" "
+      width="32"
+      height="32"
+      y="530"
+      x="440"
+      on_click="set(contador, $contador + 1)"
+    />
+
+  <agent
+      id="5"
+      text=" "
+      width="32"
+      height="32"
+      y="460"
+      x="415"
+      on_click="set(contador, $contador + 1)"
+    />
+
+  <agent
+      id="6"
+      text=" "
+      width="32"
+      height="32"
+      y="460"
+      x="415"
       on_click="set(contador, $contador + 1)"
     />
   
