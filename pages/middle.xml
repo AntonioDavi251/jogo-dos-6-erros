@@ -13,6 +13,8 @@
       text=" "
       width="32"
       height="32"
+      y=""
+      x="center"
       on_click="set(contador, $contador + 1)"
     />
   
