@@ -4,6 +4,12 @@
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
   <property name="contador" default="0" />
+  <property name="contador" default="1" />
+  <property name="contador" default="2" />
+  <property name="contador" default="3" />
+  <property name="contador" default="4" />
+  <property name="contador" default="5" />
+  <property name="contador" default="6" />
   
   <start />
   <middle />
