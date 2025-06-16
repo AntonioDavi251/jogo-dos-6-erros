@@ -1,4 +1,4 @@
-<page id="middle" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page id="middle" bg_image="01a_cidadela_do_caos1.gif" bg_music="osts-vilo.mp3">
   <agent
     id="teste"
     text="Hello World Middle"
