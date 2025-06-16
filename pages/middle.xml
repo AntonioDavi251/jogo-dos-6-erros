@@ -18,7 +18,7 @@
       on_click="set(contador, $contador + 1)"
     />
 
-  <agent
+    <agent
       id="1"
       text=" "
       width="32"
@@ -28,7 +28,7 @@
       on_click="set(contador, $contador + 1)"
     />
 
-  <agent
+    <agent
       id="2"
       text=" "
       width="32"
@@ -38,7 +38,7 @@
       on_click="set(contador, $contador + 1)"
     />
 
-<agent
+    <agent
       id="3"
       text=" "
       width="32"
@@ -48,7 +48,7 @@
       on_click="set(contador, $contador + 1)"
     />
 
-<agent
+    <agent
       id="4"
       text=" "
       width="32"
@@ -58,7 +58,7 @@
       on_click="set(contador, $contador + 1)"
     />
 
-  <agent
+    <agent
       id="5"
       text=" "
       width="32"
@@ -68,7 +68,7 @@
       on_click="set(contador, $contador + 1)"
     />
 
-  <agent
+    <agent
       id="6"
       text=" "
       width="32"
@@ -77,14 +77,9 @@
       x="415"
       on_click="set(contador, $contador + 1)"
     />
-  
-  <agent
-    id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y=""
-    x="640"
-    on_click="goToPage('ending')"
-  />
 
-</page>
+    <!-- Verificação para mudar de página -->
+    <fab-if when="$contador = 7">
+      <action do="goToPage('ending')" />
+    </fab-if>
+  </page>
