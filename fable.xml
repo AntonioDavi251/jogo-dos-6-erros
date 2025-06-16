@@ -8,3 +8,5 @@
   <middle />
   <ending />
 </fable>
+
+<property name="contador" default="valor_inicial" />
