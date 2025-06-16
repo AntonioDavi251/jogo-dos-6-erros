@@ -43,8 +43,8 @@
       text=" "
       width="32"
       height="32"
-      y="450"
-      x="680"
+      y="560"
+      x="730"
       on_click="set(contador, $contador + 1)"
     />
 
