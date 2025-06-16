@@ -82,8 +82,9 @@
     id="next_page_text"
     text="Proxima Pagina"
     animation="glitch"
-    y="480"
+    y=""
     x="640"
     on_click="goToPage('ending')"
   />
+
 </page>
